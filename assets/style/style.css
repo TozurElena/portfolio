@@ -1,0 +1,84 @@
+@charset "UTF-8";
+section {
+  padding: 80px 0;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+footer, .about {
+  background: url(../img/pattern.png), #05b1b1;
+  background: url(../img/pattern.png), -webkit-gradient(linear, left top, right top, from(#05b1b1), to(#52339a));
+  background: url(../img/pattern.png), linear-gradient(to right, #05b1b1 0%, #52339a 100%);
+  filter: url(../img/pattern.png), progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1, endColorstr=$color2, GradientType=1);
+  background-size: contain;
+}
+
+.contact,
+.learning,
+.buy {
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.learning h5 {
+  padding: 25px;
+  border: 3px solid #05b1b1;
+}
+
+.rounde {
+  border: 3px solid #05b1b1;
+  border-radius: 50%;
+}
+
+.itd_circle {
+  margin: 0 auto 15px;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #52339a;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills_card {
+  padding: 30px;
+  margin-left: 5px;
+  border: 3px solid #05b1b1;
+}
+
+.line {
+  width: 200px;
+  height: 2px;
+  background-color: #05b1b1;
+  margin: 15px  15px;
+  /*15 top, auto coté, 30 buttom*/
+}
+
+.color1 {
+  color: #05b1b1;
+}
+
+.color2 {
+  color: #52339a;
+}
+
+.bg1 {
+  background-color: #05b1b1;
+}
+
+.bg2 {
+  background-color: #52339a;
+}
+/*# sourceMappingURL=style.css.map */
