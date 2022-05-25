@@ -85,3 +85,6 @@
 .icon-file-video:before { content: '\f1c8'; } /* '' */
 .icon-paper-plane:before { content: '\f1d8'; } /* '' */
 .icon-chart-line:before { content: '\f201'; } /* '' */
+.icon-css:before {  content: '\e800';}/* '' */
+.icon-html5:before {content: '\f13b';}/* '' */
+.icon-linkedin:before {content: '\f318';}/* '' */

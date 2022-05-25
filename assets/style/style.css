@@ -55,6 +55,8 @@ a {
 .skills_card {
   padding: 30px;
   border: 3px solid #05b1b1;
+  -webkit-box-shadow: -4px -2px 22px 4px rgba(82, 51, 154, 0.38);
+  box-shadow: -4px -2px 22px 4px rgba(82, 51, 154, 0.38);
 }
 
 .line {
