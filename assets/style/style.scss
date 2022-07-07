@@ -16,12 +16,16 @@ footer, .about {
   background: url(../img/pattern.png), linear-gradient(to right, $color1 0%, $color2 100%);
   filter: url(../img/pattern.png), progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1, endColorstr=$color2, GradientType=1);
   background-size: contain;
+  
 }
 .contact,
 .formation {
   background-color: #eee;
 }
-
+.about-text {
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 2px 2px 4px $color2;
+}
 a {
   text-decoration: none;
 }
@@ -53,6 +57,9 @@ a {
   -webkit-box-shadow: -4px -2px 22px 4px rgba(82, 51, 154, 0.38);
     -moz-box-shadow: -4px -2px 22px 4px rgba(82, 51, 154, 0.38);
     box-shadow: -4px -2px 22px 4px rgba(82, 51, 154, 0.38);
+  h5 {
+    font-family: 'Lakki Reddy', cursive;
+  }
 }
 
 .line {

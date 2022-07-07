@@ -9,6 +9,12 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/style/fontello.css">
   <link rel="stylesheet" href="./assets/style/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" defer
@@ -63,14 +69,14 @@
             <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
               <img src="./assets/img/ElenaK.jpg" alt="photo" class="img-fluid rounde">
             </div>
-            <div class="col-lg-9 col-sm-12 text-light mt-5">
+            <div class="col-lg-9 col-sm-12 text-light mt-5 about-text">
               <h4 class="mb-3">Bonjour! Je m'apelle <span class="fw-bold">Elena Kozyreva</span> </h4>
-              <p class="fs-5">Après une expérience très enrichissante en tant que professeure d’informatique, je poursuis
+              <p class="fs-4 ">Après une expérience très enrichissante en tant que professeure d’informatique, je poursuis
                 aujourd’hui le projet de
                 m’orienter vers un métier plus pratique, qui me permettrait notamment de pouvoir constater le résultat concret
                 de mes
                 actions.</p>
-              <p class="fs-5">Je suis actuellement en formation de web développement chez BeCode dans d’atteindre ce nouvel
+              <p class="fs-4">Je suis actuellement en formation de web développement chez BeCode dans d’atteindre ce nouvel
                 objectif
                 professionnel tout en restant dans le secteur qui m’a toujours passionnée : l’informatique.</p>
             </div>
@@ -86,35 +92,37 @@
             <h2 class="text-center text-uppercase color2 mb-5">Contacts</h2>
           </div>
         </div>
-        <div class="row mx-auto w-50 mt-3">
-          <div class="col-xl-6  col-sm-12">
+        <div class="row mx-auto w-60  mt-3 ">
+          <div class="col-xl-4  col-sm-12">
             <div class="row ">
               <div class="itd_circle"><i class="icon-phone"></i></div>
               <h5 class="col">+32 497 02 24 83</h5>
             </div>
           </div>
-          <div class="col-xl-6 col-sm-12">
+          <div class="col-xl-4 col-sm-12">
             <div class="row">
               <div class="itd_circle"><i class="icon-mail-alt"></i></div>
-              <h5 class="col ">tozurelena@gmail.com</h5>
+              <!-- <h5 class="col ">tozurelena@gmail.com</h5> -->
+              <a  href="mailto:tozurelena@gmail.com?sibject=Question sur CV=Bonjour, " target="_blank" class="col fs-5">
+                tozurelena@gmail.com</a>
             </div>
           </div>
-          <div class="col-xl-6 col-sm-12">
+          <div class="col-xl-4 col-sm-12">
             <div class="row">
               <div class="itd_circle"><i class="icon-location"></i></div>
               <h5 class="col">6041 GOSSELIES</h5>
             </div>
           </div>
-          <div class="col-xl-6 col-sm-12">
+          <div class="col-xl-4 col-sm-12">
             <div class="row">
               <div class="itd_circle"><i class="icon-github-circled"></i></div>
               <h5 class="col"><a href="https://github.com/TozurElena" target="_blank" >github.com/TozurElena</a></h5>
             </div>
           </div>
-          <div class="col-xl-12 col-sm-12">
-            <div class="row mx-auto">
-              <div class="itd_circle col-2 "><img src="./assets/img/linkedin_icon-icons.com_49942.ico" width="25" height="25" class="img_fluid"></div>
-              <h5 class="col-10"><a href="https://www.linkedin.com/in/elena-kozyreva-dev/" target="_blank">linkedin.com/in/elenakozyreva-dev</a></h5>
+          <div class="col-xl-4 col-sm-12">
+            <div class="row ">
+              <div class="itd_circle"><img src="./assets/img/linkedin_icon-icons.com_49942.ico" width="25" height="25" class="img_fluid"></div>
+              <h5 class="col"><a href="https://www.linkedin.com/in/elena-kozyreva-dev/" target="_blank">linkedin.com/in/elenakozyreva-dev</a></h5>
             </div>
           </div>
     
@@ -131,22 +139,38 @@
         </div>
         <div class="row mb-3 justify-content-center">
           <div class="col-md-4 col-sm-12 skills_card">
-            <h5 class="text-center color2 mb-3">Hard Skills</h5>
+            <h5 class="text-center color2 mb-3 fs-2">Hard Skills</h5>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">HTML/CSS</li>
-              <li class="list-group-item">SASS</li>
-              <li class="list-group-item">Bootstrap</li>
-              <li class="list-group-item">JavaScript</li>
-              <li class="list-group-item">React</li>
-              <li class="list-group-item">NodeJS</li>
-              <li class="list-group-item">PHP</li>
-              <li class="list-group-item">Git, GitHub</li>
+              <li class="list-group-item" >
+                <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html">
+                <span class="fs-2">/</span>
+                <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css">
+              </li>
+              <li class="list-group-item"><img src="https://www.vectorlogo.zone/logos/sass-lang/sass-lang-ar21.svg" alt="sass"></li>
+              <li class="list-group-item">
+                <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="bootstrap">
+                <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg" alt="tailwindcss">
+              </li>
+              <li class="list-group-item">
+                <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="JS" width="200">
+                <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="TypeScript" width="150" >
+              </li>
+              <li class="list-group-item"><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react"></li>
+              <li class="list-group-item ">
+                <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="nodeJS">
+                <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="mongodb">
+              </li>
+              <li class="list-group-item">
+                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="git">
+                <img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" alt="gitHub">
+              </li>                                    
+              
             </ul>
           </div>
 
           <div class="col-md-4 col-sm-12 skills_card ms-3">
-            <h5 class="text-center color2 mb-3">Soft Skills</h5>
-            <ul class="list-group list-group-flush">
+            <h5 class="text-center color2 mb-3 fs-2">Soft Skills</h5>
+            <ul class="list-group list-group-flush fs-3 mt-4">
               <li class="list-group-item">Attentive</li>
               <li class="list-group-item">Ecoute empathique</li>
               <li class="list-group-item">Bonne capacité d'adaptation</li>
@@ -155,7 +179,7 @@
             </ul>
           </div>
           <div class="col-md-6 col-sm-12 skills_card mt-3">
-            <h5 class="text-center color2">Langues</h5>
+            <h5 class="text-center color2 fs-2">Langues</h5>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Français - B2</li>
               <li class="list-group-item">Anglais - B1</li>
