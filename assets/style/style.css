@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  padding: 0;
+  margin: 5px;
+}
+
 section {
   padding: 80px 0;
 }
@@ -23,6 +28,10 @@ footer, .about {
 .about-text {
   font-family: 'Nunito', sans-serif;
   text-shadow: 2px 2px 4px #52339a;
+}
+
+.soft-text {
+  font-family: 'Indie Flower', cursive;
 }
 
 a {

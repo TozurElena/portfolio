@@ -1,6 +1,10 @@
 $color1: #05b1b1;
 $color2: #52339a;
 
+body {
+  padding: 0;
+  margin: 5px;
+}
 section {
   padding: 80px 0;
 }
@@ -25,6 +29,9 @@ footer, .about {
 .about-text {
     font-family: 'Nunito', sans-serif;
     text-shadow: 2px 2px 4px $color2;
+}
+.soft-text {
+  font-family: 'Indie Flower', cursive;
 }
 a {
   text-decoration: none;
